@@ -7,20 +7,20 @@ A simple automation utility written in Python that scans your Downloads folder a
 ## Features
 
 * **Automated Categorization**: Sorts files into specific categories such as **Images**, **Documents**, **Videos**, **Music**, **Archives**, and **Scripts**.
-* **Fallback Handling**: Moves any unrecognized file formats safely into an **Others** folder[cite: 4].
-* **Dynamic Directory Creation**: Automatically creates category subfolders within your target directory if they do not already exist[cite: 4].
+* **Fallback Handling**: Moves any unrecognized file formats safely into an **Others** folder.
+* **Dynamic Directory Creation**: Automatically creates category subfolders within your target directory if they do not already exist.
 
 ---
 
 ## Prerequisites & Installation
 
-* Requires **Python 3** (no external libraries or `pip` installations are required since it uses built-in modules `os` and `shutil`[cite: 4]).
+* Requires **Python 3** (no external libraries or `pip` installations are required since it uses built-in modules `os` and `shutil`.
 
 ---
 
 ## How to Run
 
-1. Download or copy the code into a file named `Task 4.py`[cite: 4].
+1. Download or copy the code into a file named `Task 4.py`.
 2. **Note on Safety**: By default, the script targets your system's `~/Downloads` folder[cite: 4]. If you wish to test it safely first, modify the `DOWNLOADS_FOLDER` variable to point to a test directory.
 3. Open your terminal or command prompt and run the script:
 
